@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        .container{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            background-color:deepskyblue;
+            justify-content:center;
+           /* align-items:flex-end;*/
+           align-content:space-evenly;
+           align-items:flex-start;
+            height:400px;
+        }
+
+        .container >div{
+            background-color:antiquewhite;
+            width:100px;
+            margin:10px;
+            text-align:center;
+            font-size:30px;
+         
+            line-height:80px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div style="flex-grow:9"> 1</div>
+        <div style="flex-grow:7;flex-basis:200px"><h1>2</h1></div>
+        <div>3</div>
+        <div><h2>4</h2></div>
+        <div>5</div>
+        <div><h4>6</h4></div>
+        
+        
+    </div>
+
+
+</body>
+</html>
